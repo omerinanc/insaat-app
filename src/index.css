@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.sil:hover {
+  background-color: red !important;
+  color: azure !important;
+  border-color: azure !important;
+}
+.duzenle:hover {
+  background-color: white !important;
+  color: #001529 !important;
+  border-color: #001529 !important;
+}
+@media screen and (max-width: 800px) {
+  .table {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+/* Define styles for mobile screens (e.g., screens with a max-width of 767px) */
+@media (max-width: 767px) {
+  .mobile-header {
+    /* Add your mobile-specific styles here */
+    background-color: #c11e1e; /* Example background color */
+    color: white; /* Example text color */
+    padding: 100px; /* Example padding */
+    /* Add any other styles you want for the mobile header */
+  }
+}
